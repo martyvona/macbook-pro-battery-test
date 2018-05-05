@@ -1,8 +1,8 @@
 # MacBook Pro Battery Life Test
 
-This repository contains a simple test script for battery life testing on OS X and Linux.  This is based on the [original](https://github.com/geerlingguy/macbook-pro-battery-test) by geerlingguy at the time of this writing geerlingguy's version requires Vagrant and VirtualBox and requires an internet connection.
+This repository contains a simple test script for battery life testing on OS X and Linux.  This is based on the [original](https://github.com/geerlingguy/macbook-pro-battery-test) by geerlingguy.  At the time of this writing that version requires Vagrant, VirtualBox, and an internet connection.
 
-This version has no dependencies and does not require an internet connection.  It uses [yes](http://osxdaily.com/2012/10/02/stress-test-mac-cpu) commands to stress the CPU, running N copies in parallel where N is the number of CPU cores on your machine.
+This version has no dependencies and does not use the network.  It uses [yes](http://osxdaily.com/2012/10/02/stress-test-mac-cpu) commands to stress the CPU, running N copies in parallel where N is the number of CPU cores on your machine.
 
 ## Usage
 
